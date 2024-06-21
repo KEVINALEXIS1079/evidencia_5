@@ -6,7 +6,7 @@ $contra = readline("ingrese su contraseña: ");
 $empleados = [];
 
 if ($nom == "kevin" && $contra == 1234) {
-    for ($i=0; $i <=7; $i++) { 
+    for ($i=0; $i <=4; $i++) { 
         echo "Persona $i:\n";
         $nombre = readline("nombre: ");
         $dni = readline("DNI ");
