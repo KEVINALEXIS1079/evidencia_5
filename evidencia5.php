@@ -1,7 +1,7 @@
 <?php
 echo "INICIO DE SESION.";
 
-$nom = readline("\ningrese su nombre:");
+$nom = readline("ingrese su nombre:\n");
 $contra = readline("ingrese su contraseña: ");
 $empleados = [];
 
@@ -44,6 +44,8 @@ if ($nom == "kevin" && $contra == 1234) {
                  echo "Género: " . $empleado['genero'] . "\n";
                  echo "¿Fuma?: " . $empleado['fumador']  . "\n";
         break;
+    }else {
+        echo "el empleado no existe";
     }
 }
 }else {
